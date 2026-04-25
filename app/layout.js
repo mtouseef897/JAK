@@ -10,9 +10,9 @@ import CustomScripts from "@/modules/scripts/CustomScripts";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Saprise Consultancy",
+  title: "JAK Associates",
   description:
-    "Your Gateway to cutting-edge ERP technology with SAP Business One, Innovative Web Solutions and Cloud Services",
+    "The Power of Being Clear",
 };
 
 export default function RootLayout({ children }) {

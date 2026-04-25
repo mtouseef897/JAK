@@ -1,3 +1,6 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 @import url("./css/vendors.min.css");
 @import url("./css/icon.min.css");
 @import url("./css/style.css");
@@ -6,5 +9,6 @@
 /* @import url("/app/revolution/css/settings.css");
 @import url("/app/revolution/css/layers.css");
 @import url("/app/revolution/css/navigation.css"); */
+
 
 
