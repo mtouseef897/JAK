@@ -1,13 +1,14 @@
 import React from "react";
-
+import { carouselItems } from "@/modules/components/home/homeData";
 import { serviceCarouselItems } from "@/modules/components/home/homeData";
 
 const WhyChooseUsSection = () => {
-  const carouselItems = [
-    ...serviceCarouselItems,
-    ...serviceCarouselItems,
-    serviceCarouselItems[1],
-  ];
+  // const carouselItems = [
+  //   ...serviceCarouselItems,
+  //   ...serviceCarouselItems,
+  //   serviceCarouselItems[1],
+  // ];
+  console.log("carousel items =>", carouselItems);
 
   return (
     <section className="bg-very-light-gray overflow-hidden">
@@ -18,7 +19,7 @@ const WhyChooseUsSection = () => {
             data-anime='{ "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
           >
             <h4 className="text-dark-gray fw-700 mb-0 ls-minus-1px">
-              Why choose us as your accountant consultant?
+              Why Clients Choose JAK Associates
             </h4>
           </div>
           <div
@@ -26,8 +27,7 @@ const WhyChooseUsSection = () => {
             data-anime='{ "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
           >
             <p className="w-90 xl-w-100 md-w-80 sm-w-100 md-mx-auto">
-              We put a strong focus on the needs of your business to figure out
-              solutions that best fits your demand.
+             We bring certified expertise, global reach, and a personalised approach to every engagement.
             </p>
           </div>
           <div
@@ -73,7 +73,7 @@ const WhyChooseUsSection = () => {
                               <div className="col last-paragraph-no-margin">
                                 <a
                                   href="demo-accounting-services.html"
-                                  className="text-white fs-24 lh-28 w-65 xl-w-75 d-block"
+                                  className="text-white fs-24 lh-28 w-90 xl-w-75 d-block"
                                 >
                                   {item.title}
                                 </a>

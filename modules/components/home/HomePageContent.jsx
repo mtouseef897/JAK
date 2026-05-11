@@ -8,11 +8,13 @@ import ServicesTabsSection from "@/modules/components/home/sections/ServicesTabs
 import StatsTestimonialsSection from "@/modules/components/home/sections/StatsTestimonialsSection";
 import TrustedCompaniesSection from "@/modules/components/home/sections/TrustedCompaniesSection";
 import WhyChooseUsSection from "@/modules/components/home/sections/WhyChooseUsSection";
+import ExperienceCountSection from "./sections/ExperienceCountSection";
 
 const HomePageContent = () => {
   return (
     <>
       <HeroSection />
+      <ExperienceCountSection/>
       <ExperienceContactSection />
       <WhyChooseUsSection />
       <BaseCtaSection />

@@ -143,3 +143,48 @@ export const blogItems = [
     description: "Lorem ipsum simply dummy printing setting industry...",
   },
 ];
+
+export const carouselItems = [
+  {
+    title: "Certified & Qualified",
+    text: "CA, B.Com, and Certified Intuit Bookkeeper — your finances in expert hands",
+    image: "/images/demo-accounting-img-01.jpg",
+    iconClassName: "line-icon-Management icon-extra-large text-white mb-20px",
+    contentPaddingClassName: "p-12 xl-p-10",
+  },
+  {
+    title: "Multi-Jurisdiction Expertise",
+    text: "Deep knowledge of Pakistan, US, UK & UAE tax and accounting laws",
+    image: "/images/demo-accounting-img-02.jpg",
+    iconClassName: "line-icon-Globe icon-extra-large text-white mb-20px",
+    contentPaddingClassName: "p-12 xl-p-10",
+  },
+  {
+    title: "100% Remote & Flexible",
+    text: "Work with us from anywhere — seamless communication, on-time delivery",
+    image: "/images/demo-accounting-img-03.jpg",
+    iconClassName: "line-icon-Computer icon-extra-large text-white mb-20px",
+    contentPaddingClassName: "p-12 xl-p-10",
+  },
+  {
+    title: "Transparent & Trustworthy",
+    text: "Clear pricing, no hidden fees, no jargon — just honest financial advice",
+    image: "/images/demo-accounting-img-04.jpg",
+    iconClassName: "line-icon-Handshake icon-extra-large text-white mb-20px",
+    contentPaddingClassName: "p-12 xl-p-10",
+  },
+  {
+    title: "100% Remote & Flexible",
+    text: "Work with us from anywhere — seamless communication, on-time delivery",
+    image: "/images/demo-accounting-img-01.jpg",
+    iconClassName: "line-icon-Computer icon-extra-large text-white mb-20px",
+    contentPaddingClassName: "p-12 xl-p-10",
+  },
+  {
+    title: "Transparent & Trustworthy",
+    text: "Clear pricing, no hidden fees, no jargon — just honest financial advice",
+    image: "/images/demo-accounting-img-02.jpg",
+    iconClassName: "line-icon-Handshake icon-extra-large text-white mb-20px",
+    contentPaddingClassName: "p-12 xl-p-10",
+  },
+];
