@@ -9,16 +9,25 @@ import StatsTestimonialsSection from "@/modules/components/home/sections/StatsTe
 import TrustedCompaniesSection from "@/modules/components/home/sections/TrustedCompaniesSection";
 import WhyChooseUsSection from "@/modules/components/home/sections/WhyChooseUsSection";
 import ExperienceCountSection from "./sections/ExperienceCountSection";
+import AboutFounderIntro from "./sections/AboutFounderIntro";
+import TabbedSection from "./sections/TabbedSection";
+import ProcessSection from "./sections/ProcessSection";
+import EmbedVideoSection from "./sections/EmbedVideoSection";
+
 
 const HomePageContent = () => {
   return (
     <>
       <HeroSection />
-      <ExperienceCountSection/>
-      <ExperienceContactSection />
+      <ExperienceCountSection />
+      {/* <ExperienceContactSection /> */}
       <WhyChooseUsSection />
+      <AboutFounderIntro />
+      <TabbedSection />
+      <ProcessSection />
       <BaseCtaSection />
       <TrustedCompaniesSection />
+      <EmbedVideoSection />
       <ServicesTabsSection />
       <StatsTestimonialsSection />
       <ArticlesSection />

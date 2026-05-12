@@ -127,20 +127,19 @@ export const testimonials = [
 
 export const blogItems = [
   {
-    title: "High returns on investment",
+    title: "Top Tax Saving Strategies for Pakistani SMEs in 2026",
     description: "Lorem ipsum simply dummy printing setting industry...",
+    thumbnail: "/images/blog-01.jpg",
   },
   {
-    title: "Made businesses efficient",
+    title: "US Tax Filing for Non-Residents: What You Must Know",
     description: "Lorem ipsum simply dummy printing setting industry...",
+    thumbnail: "/images/blog-02.jpg",
   },
   {
-    title: "Business meeting 2021",
+    title: "Why Every Business Needs a Certified Bookkeeper",
     description: "Lorem ipsum simply dummy printing setting industry...",
-  },
-  {
-    title: "Corporate workplace ethics",
-    description: "Lorem ipsum simply dummy printing setting industry...",
+    thumbnail: "/images/blog-03.jpg",
   },
 ];
 

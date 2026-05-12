@@ -4,7 +4,7 @@ import { blogItems } from "@/modules/components/home/homeData";
 
 const ArticlesSection = () => {
   return (
-    <section className="pt-0">
+    <section className="pt-0 mb-5 ">
       <div className="container">
         <div className="row justify-content-center mb-2">
           <div
@@ -17,9 +17,9 @@ const ArticlesSection = () => {
           </div>
         </div>
         <div className="row g-0">
-          <div className="col-12">
+          <div className="col-12  ">
             <ul
-              className="blog-classic blog-wrapper grid-loading grid grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large"
+              className="blog-classic blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large"
               data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
             >
               <li className="grid-sizer" />
@@ -28,7 +28,7 @@ const ArticlesSection = () => {
                   <div className="card bg-transparent border-0 h-100">
                     <div className="blog-image position-relative overflow-hidden border-radius-4px">
                       <a href="demo-accounting-blog-single-creative.html">
-                        <img src="https://via.placeholder.com/600x430" alt="" />
+                        <img src={item.thumbnail} alt="" />
                       </a>
                     </div>
                     <div className="card-body px-0 pt-30px pb-30px xs-pb-15px last-paragraph-no-margin">
@@ -44,6 +44,17 @@ const ArticlesSection = () => {
                 </li>
               ))}
             </ul>
+            <div className="w-full flex justify-center items-center">
+              <a
+                href="/blogs"
+                className="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600 border-2 border-red-400"
+              >
+                View All Articles
+                <span className="bg-base-color text-white">
+                  <i className="bi bi-arrow-right-short icon-extra-medium" />
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
