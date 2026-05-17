@@ -14,7 +14,7 @@ const BaseCtaSection = () => {
               <p>
                 Save your precious time and effort spent for finding a solution.{" "}
                 <a
-                  href="demo-accounting-contact.html"
+                  href="/contact"
                   className="text-decoration-line-bottom fw-500 text-white"
                 >
                   Contact us now

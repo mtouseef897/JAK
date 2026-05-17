@@ -70,7 +70,14 @@ const HeaderNavbar = () => {
     <nav className="navbar navbar-expand-lg header-light bg-white responsive-sticky">
       <div className="container-fluid">
         <div className="col-auto col-lg-2 me-lg-0 me-auto">
-          <HeaderLogo />
+          {/* <HeaderLogo /> */}
+          <img
+            src="images/JAK.jpeg"
+            alt="JAK Logo"
+            style={{
+              height:"100px"
+            }}
+          />
         </div>
         <div className="col-auto menu-order position-static">
           <button

@@ -24,12 +24,12 @@ const AboutFounderIntro = () => {
         >
           <div className="col-lg-6 position-relative md-mb-14 sm-mb-17 xs-mb-23">
             <div
-              className="w-70 md-w-75 xs-w-90"
+              // className="w-70 md-w-75 xs-w-90"
               data-animation-delay={50}
               data-shadow-animation="true"
             >
               <img
-                src="https://via.placeholder.com/407x489"
+                src="images/jak-profile.jpeg"
                 alt=""
                 className="border-radius-8px w-100"
               />
@@ -56,7 +56,7 @@ const AboutFounderIntro = () => {
               10+ Years of Accounting & Financial Expertise
             </p>
             <p className="mb-40px xs-mb-30px w-90 lg-w-95 md-w-100">
-              I founded JAK Associates with one mission: to bring clarity to
+              I founded JAK with one mission: to bring clarity to
               your finances. With over a decade of hands-on experience
               acrossPakistan, US, UK and UAE accounting frameworks, I help
               individuals and businesses make confident, well-informed financial

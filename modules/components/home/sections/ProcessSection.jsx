@@ -141,7 +141,7 @@ const ProcessSection = () => {
             <div className="fs-18 fw-500 text-dark-gray d-inline-block align-middle">
               Let's make something great work together.{" "}
               <a
-                href="demo-corporate-contact.html"
+                href="/contact"
                 className="text-dark-gray text-decoration-line-bottom fw-700"
               >
                 Got a project in mind?

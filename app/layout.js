@@ -10,7 +10,7 @@ import CustomScripts from "@/modules/scripts/CustomScripts";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "JAK Associates",
+  title: "JAK",
   description:
     "The Power of Being Clear",
 };

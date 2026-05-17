@@ -3,7 +3,7 @@ export const footerTopContent = {
   description: "We will take care of your business accounting services.",
   actions: [
     {
-      href: "demo-accounting-contact.html",
+      href: "/contact",
       iconClassName: "feather icon-feather-mail",
       label: "Free consultation",
       className:
@@ -20,10 +20,10 @@ export const footerTopContent = {
 };
 
 export const footerBrand = {
-  href: "demo-accounting.html",
-  logoSrc: "images/demo-accounting-logo-white.png",
+  href: "/",
+  logoSrc: "images/JAK.jpeg",
   retinaLogoSrc: "images/demo-accounting-logo-white@2x.png",
-  description: "Lorem ipsum amet adipiscing elit to eiusmod ad tempor.",
+  description: "The Power of Being Clear",
   socialLinks: [
     {
       name: "facebook",
@@ -53,20 +53,20 @@ export const footerLinkGroups = [
     title: "About",
     className: "col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-3 order-lg-2",
     links: [
-      { href: "demo-accounting-company.html", label: "Company" },
-      { href: "demo-accounting-services.html", label: "Services" },
-      { href: "demo-accounting-process.html", label: "Process" },
-      { href: "demo-accounting-contact.html", label: "Contact" },
+      { href: "/", label: "Company" },
+      { href: "/services", label: "Services" },
+      { href: "/", label: "Process" },
+      { href: "/contact", label: "Contact" },
     ],
   },
   {
     title: "Services",
     className: "col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-4 order-lg-3",
     links: [
-      { href: "demo-accounting-services.html", label: "Financial" },
-      { href: "demo-accounting-services.html", label: "Investment" },
-      { href: "demo-accounting-services.html", label: "Banking" },
-      { href: "demo-accounting-services.html", label: "Consulting" },
+      { href: "/services", label: "Financial" },
+      { href: "/services", label: "Investment" },
+      { href: "/services", label: "Banking" },
+      { href: "/services", label: "Consulting" },
     ],
   },
 ];

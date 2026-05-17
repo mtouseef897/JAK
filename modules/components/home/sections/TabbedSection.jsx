@@ -15,12 +15,12 @@ const TabbedSection = () => {
                     data-anime='{ "effect": "slide", "color": "#005153", "direction":"lr", "easing": "easeOutQuad", "delay":50}'
                   >
                     <img
-                      src="https://via.placeholder.com/600x505"
+                      src="/images/demo-accounting-img-06.jpg"
                       alt=""
                       className="w-100 border-radius-6px"
                     />
                     <div
-                      className="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center"
+                      className="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-40px box-shadow-large d-flex align-items-center"
                       data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 800, "staggervalue": 500, "easing": "easeOutQuad" }'
                     >
                       <h2
@@ -51,7 +51,7 @@ const TabbedSection = () => {
                       and reporting tailored for your business.
                     </p>
                     <a
-                      href="demo-accounting-services.html"
+                      href="/services"
                       className="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600"
                     >
                       Learn more
@@ -68,11 +68,11 @@ const TabbedSection = () => {
                 <div className="row align-items-center justify-content-center g-lg-0">
                   <div className="col-md-6 sm-mb-30px position-relative overflow-hidden">
                     <img
-                      src="https://via.placeholder.com/600x505"
+                      src="/images/demo-accounting-img-07.jpg"
                       alt=""
                       className="w-100 border-radius-4px"
                     />
-                    <div className="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
+                    <div className="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-40px box-shadow-large d-flex align-items-center">
                       <h2
                         className="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
                         data-to={80}
@@ -115,11 +115,11 @@ const TabbedSection = () => {
                 <div className="row align-items-center justify-content-center g-lg-0">
                   <div className="col-md-6 sm-mb-30px position-relative overflow-hidden">
                     <img
-                      src="https://via.placeholder.com/600x505"
+                      src="/images/demo-accounting-img-08.jpg"
                       alt=""
                       className="w-100 border-radius-4px"
                     />
-                    <div className="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
+                    <div className="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-40px box-shadow-large d-flex align-items-center">
                       <h2
                         className="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
                         data-to={85}
@@ -145,7 +145,7 @@ const TabbedSection = () => {
                       —with integrity at every step.
                     </p>
                     <a
-                      href="demo-accounting-services.html"
+                      href="/services"
                       className="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600"
                     >
                       Learn more
@@ -162,11 +162,11 @@ const TabbedSection = () => {
                 <div className="row align-items-center justify-content-center g-lg-0">
                   <div className="col-md-6 sm-mb-30px position-relative overflow-hidden">
                     <img
-                      src="https://via.placeholder.com/600x505"
+                      src="/images/demo-accounting-img-09.jpg"
                       alt=""
                       className="w-100 border-radius-4px"
                     />
-                    <div className="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
+                    <div className="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-40px box-shadow-large d-flex align-items-center">
                       <h2
                         className="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
                         data-to={80}

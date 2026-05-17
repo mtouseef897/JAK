@@ -66,7 +66,7 @@ const ServicesTabsSection = () => {
                         company a competitive.{" "}
                       </p>
                       <a
-                        href="demo-accounting-services.html"
+                        href="/services"
                         className="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600"
                       >
                         Learn more

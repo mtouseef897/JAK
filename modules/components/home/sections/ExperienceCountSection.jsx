@@ -44,7 +44,7 @@ const ExperienceCountSection = () => {
           <div className="col pt-35px pb-35px md-pb-0 text-dark-gray border-end border-color-extra-medium-gray sm-border-end-0">
             <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center text-lg-start">
               <div className="flex-shrink-0 me-15px md-me-0">
-                <h2 className="mb-0 fw-800 ls-minus-3px">4</h2>
+                <h2 className="mb-0 fw-800 ls-minus-3px">5</h2>
               </div>
               <div>
                 {/* <div className="review-star-icon fs-20 d-inline-block text-gradient-orange-sky-blue">
@@ -54,7 +54,7 @@ const ExperienceCountSection = () => {
                   <i className="bi bi-star-fill" />
                   <i className="bi bi-star-fill" />
                 </div> */}
-                <span className="lh-20 fs-14 fw-600 d-block">Jurisdictions: PK | US | UK | UAE</span>
+                <span className="lh-20 fs-14 fw-600 d-block">Jurisdictions: PK | USA | KSA | UK | UAE</span>
               </div>
             </div>
           </div>

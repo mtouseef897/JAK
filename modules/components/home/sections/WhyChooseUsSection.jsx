@@ -19,7 +19,7 @@ const WhyChooseUsSection = () => {
             data-anime='{ "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
           >
             <h4 className="text-dark-gray fw-700 mb-0 ls-minus-1px">
-              Why Clients Choose JAK Associates
+              Why Clients Choose JAK
             </h4>
           </div>
           <div
@@ -27,7 +27,8 @@ const WhyChooseUsSection = () => {
             data-anime='{ "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
           >
             <p className="w-90 xl-w-100 md-w-80 sm-w-100 md-mx-auto">
-             We bring certified expertise, global reach, and a personalised approach to every engagement.
+              We bring certified expertise, global reach, and a personalised
+              approach to every engagement.
             </p>
           </div>
           <div
@@ -60,26 +61,26 @@ const WhyChooseUsSection = () => {
                     >
                       <div className="interactive-banner-style-08">
                         <figure className="m-0 hover-box overflow-hidden position-relative border-radius-6px">
-                          <a href="demo-accounting-services.html">
+                          <a href="/services">
                             <img src={item.image} alt="" />
                           </a>
                           <figcaption
                             className={`d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 ${item.contentPaddingClassName}`}
                           >
-                            <a href="demo-accounting-services.html">
+                            <a href="/services">
                               <i className={item.iconClassName} />
                             </a>
                             <div className="mt-auto d-flex w-100 align-items-center">
                               <div className="col last-paragraph-no-margin">
                                 <a
-                                  href="demo-accounting-services.html"
+                                  href="/services"
                                   className="text-white fs-24 lh-28 w-90 xl-w-75 d-block"
                                 >
                                   {item.title}
                                 </a>
                               </div>
                               <a
-                                href="demo-accounting-services.html"
+                                href="/services"
                                 className="circle-box bg-yellow w-50px h-50px rounded-circle ms-auto position-relative rounded-box"
                               >
                                 <i className="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray" />

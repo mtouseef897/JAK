@@ -20,16 +20,15 @@ const HomePageContent = () => {
     <>
       <HeroSection />
       <ExperienceCountSection />
-      {/* <ExperienceContactSection /> */}
       <WhyChooseUsSection />
       <AboutFounderIntro />
       <TabbedSection />
       <ProcessSection />
       <BaseCtaSection />
-      <TrustedCompaniesSection />
+      {/* <TrustedCompaniesSection /> */}
       <EmbedVideoSection />
-      <ServicesTabsSection />
-      <StatsTestimonialsSection />
+      {/* <ServicesTabsSection /> */}
+      {/* <StatsTestimonialsSection /> */}
       <ArticlesSection />
     </>
   );
