@@ -6,9 +6,9 @@ import FooterTop from "@/modules/components/layout/footer/FooterTop";
 
 const Footer = () => {
   return (
-    <footer className="footer-dark bg-dark-gray pt-0 pb-2 lg-pb-35px">
+    <footer className="site-footer footer-dark bg-dark-gray pt-0 pb-2 lg-pb-35px">
       <FooterTop />
-      <div className="container">
+      <div className="container site-footer__container">
         <FooterContent />
         <FooterBottom />
       </div>

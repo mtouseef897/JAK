@@ -13,18 +13,18 @@ const FooterTopAction = ({ action }) => {
 
 const FooterTop = () => {
   return (
-    <div className="footer-top pt-50px pb-50px sm-pt-35px sm-pb-35px border-bottom border-1 border-color-transparent-white-light">
+    <div className="site-footer__top border-bottom border-1 border-color-transparent-white-light">
       <div className="container">
-        <div className="row align-items-center justify-content-center">
-          <div className="col-xl-6 text-center text-xl-start lg-mb-30px sm-mb-20px">
-            <h3 className="text-white mb-5px fw-500 ls-minus-1px">
+        <div className="site-footer__top-panel">
+          <div className="site-footer__top-copy">
+            <h3 className="text-white mb-10px fw-500 ls-minus-1px">
               {footerTopContent.title}
             </h3>
-            <span className="fs-20 widget-text fw-300">
+            <span className="site-footer__top-description fs-20 widget-text fw-300">
               {footerTopContent.description}
             </span>
           </div>
-          <div className="col-xl-6 text-center text-xl-end">
+          <div className="site-footer__top-actions">
             {footerTopContent.actions.map((action) => (
               <FooterTopAction key={action.label} action={action} />
             ))}

@@ -5,14 +5,14 @@ export const footerTopContent = {
     {
       href: "/contact",
       iconClassName: "feather icon-feather-mail",
-      label: "Free consultation",
+      label: "Let's Talk",
       className:
         "btn btn-extra-large btn-yellow left-icon btn-box-shadow btn-rounded text-transform-none d-inline-block align-middle me-15px xs-m-10px",
     },
     {
-      href: "tel:12345678910",
+      href: "tel:+92-309-5004300",
       iconClassName: "feather icon-feather-phone-call",
-      label: "+1 234 567 8910",
+      label: "+92 309 5004300",
       className:
         "btn btn-extra-large btn-base-color left-icon btn-box-shadow btn-rounded d-inline-block align-middle xs-m-10px",
     },
@@ -21,29 +21,29 @@ export const footerTopContent = {
 
 export const footerBrand = {
   href: "/",
-  logoSrc: "images/JAK.jpeg",
-  retinaLogoSrc: "images/demo-accounting-logo-white@2x.png",
-  description: "The Power of Being Clear",
+  logoSrc: "/images/JAK.jpeg",
+  retinaLogoSrc: "/images/JAK.jpeg",
+  description: "The Confidence of Being Clear",
   socialLinks: [
     {
       name: "facebook",
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com/share/18WzykTc7V/",
       iconClassName: "fa-brands fa-facebook-f",
     },
     {
-      name: "dribbble",
-      href: "http://www.dribbble.com",
-      iconClassName: "fa-brands fa-dribbble",
+      name: "youtube",
+      href: "https://youtube.com/@mr.jakca_1",
+      iconClassName: "fa-brands fa-youtube",
     },
     {
-      name: "twitter",
-      href: "http://www.twitter.com",
-      iconClassName: "fa-brands fa-twitter",
+      name: "linkedin",
+      href: "https://www.linkedin.com/in/jamal-ahmad-khan-3b3b30289",
+      iconClassName: "fa-brands fa-linkedin",
     },
     {
-      name: "instagram",
-      href: "http://www.instagram.com",
-      iconClassName: "fa-brands fa-instagram",
+      name: "whatsapp",
+      href: "https://wa.me/923095004300",
+      iconClassName: "fa-brands fa-whatsapp",
     },
   ],
 };
@@ -63,10 +63,21 @@ export const footerLinkGroups = [
     title: "Services",
     className: "col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-4 order-lg-3",
     links: [
-      { href: "/services", label: "Financial" },
-      { href: "/services", label: "Investment" },
-      { href: "/services", label: "Banking" },
-      { href: "/services", label: "Consulting" },
+      { href: "/services/audit", label: "Audit" },
+      { href: "/services/audit-assurance", label: "Audit Assurance" },
+      { href: "/services/bookkeeping", label: "Bookkeeping" },
+      { href: "/services/budgeting", label: "Budgeting" },
+      { href: "/services/business-planning", label: "Business Planning" },
+      { href: "/services/financial-planning", label: "Financial Planning" },
+      {
+        href: "/services/financial-projections",
+        label: "Financial Projections",
+      },
+      { href: "/services/incorporation", label: "Incorporation" },
+      { href: "/services/investment", label: "Investment" },
+      { href: "/services/payroll", label: "Payroll" },
+      { href: "/services/strategic-planning", label: "Strategic Planning" },
+      { href: "/services/tax-filing", label: "Tax Filing" },
     ],
   },
 ];
@@ -77,14 +88,14 @@ export const footerContact = {
   items: [
     {
       label: "Need support?",
-      href: "mailto:hi@domain.com",
-      value: "hi@domain.com",
+      href: "mailto:jamalkhanca@gmail.com",
+      value: "jamalkhanca@gmail.com",
       linkClassName: "text-white lh-16 d-block mb-15px",
     },
     {
       label: "Customer care?",
-      href: "tel:12345678910",
-      value: "+1 234 567 8910",
+      href: "tel:+923095004300",
+      value: "+92 309 5004300",
       linkClassName: "text-white lh-16 d-block",
     },
   ],
@@ -100,9 +111,9 @@ export const footerNewsletter = {
 
 export const footerBottomContent = {
   copyright: {
-    year: "2024",
-    brandHref: "index.html",
-    brandLabel: "Crafto",
+    year: "2026",
+    brandHref: "/",
+    brandLabel: "JAK Global",
   },
   menuLinks: [
     { href: "#", label: "Privacy policy" },

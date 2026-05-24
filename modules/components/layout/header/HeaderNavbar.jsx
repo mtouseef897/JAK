@@ -72,7 +72,7 @@ const HeaderNavbar = () => {
         <div className="col-auto col-lg-2 me-lg-0 me-auto">
           {/* <HeaderLogo /> */}
           <img
-            src="images/JAK.jpeg"
+            src="/images/JAK.jpeg"
             alt="JAK Logo"
             style={{
               height:"100px"

@@ -3,32 +3,25 @@ import React from "react";
 import { footerBottomContent } from "@/modules/components/layout/footer/footerData";
 
 const FooterBottom = () => {
+  const visibleMenuLinks = footerBottomContent.menuLinks.filter(
+    (link) => link.href && link.href !== "#",
+  );
+
   return (
-    <div className="row align-items-center fs-16 fw-300">
-      <div className="col-md-4 last-paragraph-no-margin order-2 order-md-1 text-center text-md-start">
-        <p>
-          © Copyright {footerBottomContent.copyright.year}{" "}
-          <a
-            href={footerBottomContent.copyright.brandHref}
-            target="_blank"
-            rel="noreferrer"
-            className="text-decoration-line-bottom text-white"
-          >
-            {footerBottomContent.copyright.brandLabel}
-          </a>
-        </p>
-      </div>
-      <div className="col-md-8 text-md-end order-1 order-md-2 text-center text-md-end sm-mb-10px">
-        <ul className="footer-navbar sm-lh-normal">
-          {footerBottomContent.menuLinks.map((link) => (
+    <div className="site-footer__bottom fs-16 fw-300">
+      <p className="site-footer__bottom-copy mb-0">
+        © Copyright {footerBottomContent.copyright.year}{" "}
+        {footerBottomContent.copyright.brandLabel}. All rights reserved.
+      </p>
+      {visibleMenuLinks.length > 0 ? (
+        <ul className="site-footer__bottom-links">
+          {visibleMenuLinks.map((link) => (
             <li key={link.label}>
-              <a href={link.href} className="nav-link">
-                {link.label}
-              </a>
+              <a href={link.href}>{link.label}</a>
             </li>
           ))}
         </ul>
-      </div>
+      ) : null}
     </div>
   );
 };

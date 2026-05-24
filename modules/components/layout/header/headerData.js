@@ -18,17 +18,17 @@ export const headerTopBar = {
 export const logoImages = [
   {
     className: "default-logo",
-    src: "images/jak-logo.jpg",
+    src: "/images/jak-logo.jpg",
     retinaSrc: "images/jak-logo@2x.jpg",
   },
   {
     className: "alt-logo",
-    src: "images/jak-logo.jpg",
+    src: "/images/jak-logo.jpg",
     retinaSrc: "images/jak-logo@2x.jpg",
   },
   {
     className: "mobile-logo",
-    src: "images/jak-logo.jpg",
+    src: "/images/jak-logo.jpg",
     retinaSrc: "images/jak-logo-mobile@2x.jpg",
   },
 ];
