@@ -167,7 +167,7 @@ export default function ContactPage() {
                 <i className="feather icon-feather-mail d-inline-block icon-small me-10px" />
                 Send a message
               </span>
-              <a href="mailto:info@yourdomain.com">jamalkhanca001@gmail.com</a>
+              <a href="mailto:jamalkhanca001@gmail.com">jamalkhanca001@gmail.com</a>
 
               <br />
             </div>
