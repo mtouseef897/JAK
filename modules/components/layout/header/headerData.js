@@ -104,10 +104,10 @@ export const navigationItems = [
     href: "/testimonials",
     label: "Testimonials",
   },
-  {
-    href: "/blog",
-    label: "Blog",
-  },
+  // {
+  //   href: "/blog",
+  //   label: "Blog",
+  // },
   {
     href: "/contact",
     label: "Contact",
