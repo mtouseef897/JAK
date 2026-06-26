@@ -33,7 +33,7 @@ const EmbedVideoSection = () => {
                 </div>
                 <div className="col-md-2 position-relative z-index-1 text-center sm-mb-20px">
                   <a
-                    href="https://youtube.com/@mr.jakca_1"
+                    href="https://www.youtube.com/watch?v=WGzIMrZyZ7E"
                     className="position-relative d-inline-block text-center border border-2 border-color-white rounded-circle video-icon-box video-icon-large popup-youtube"
                   >
                     <span>

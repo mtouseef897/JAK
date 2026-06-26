@@ -11,7 +11,7 @@ export const headerTopBar = {
   },
   location: {
     iconClassName: "feather icon-feather-mail",
-    label: "jamalkhanca@gmail.com",
+    label: "jamalkhanca001@gmail.com",
   },
 };
 

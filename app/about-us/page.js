@@ -7,24 +7,29 @@ export default function AboutPage() {
   const faqItems = [
     {
       question: "What jurisdictions do you cover?",
-      answer: "We specialise in Pakistan, US, UK, and UAE accounting and tax frameworks. Whether you are an individual or a corporate entity, we have deep expertise in your specific regulatory environment."
+      answer:
+        "We specialise in Pakistan, US, UK, and UAE accounting and tax frameworks. Whether you are an individual or a corporate entity, we have deep expertise in your specific regulatory environment.",
     },
     {
       question: "Are your services fully remote?",
-      answer: "Yes. JAK Associates operates 100% remotely. We use secure digital tools to exchange documents, communicate, and deliver all services — no physical office visit is required."
+      answer:
+        "Yes. JAK Associates operates 100% remotely. We use secure digital tools to exchange documents, communicate, and deliver all services — no physical office visit is required.",
     },
     {
       question: "What qualifications does Jamal Ahmad Khan hold?",
-      answer: "Jamal is a Chartered Accountant (CA), holds a B.Com degree, and is a Certified Intuit Bookkeeper with over 10 years of hands-on experience."
+      answer:
+        "Jamal is a Chartered Accountant (CA) and is a Certified Intuit Bookkeeper with over 10 years of hands-on experience.",
     },
     {
       question: "How do I get started?",
-      answer: "Simply fill out the contact form, send us an email at jamalkhanca@gmail.com, or message us on WhatsApp at +92-309-5004300. We will respond within 24 hours."
+      answer:
+        "Simply fill out the contact form, send us an email at jamalkhanca001@gmail.com, or message us on WhatsApp at +92-309-5004300. We will respond within 24 hours.",
     },
     {
       question: "Can you handle both personal and business accounts?",
-      answer: "Absolutely. We serve individuals, salaried persons, freelancers, SMEs, and large corporations with equal expertise and care."
-    }
+      answer:
+        "Absolutely. We serve individuals, salaried persons, freelancers, SMEs, and large corporations with equal expertise and care.",
+    },
   ];
 
   return (
@@ -83,32 +88,42 @@ export default function AboutPage() {
                 Built on Expertise. Driven by Clarity.
               </h3>
               <p className="mb-25px text-dark-gray lh-26 w-90">
-                JAK Associates was founded by Jamal Ahmad Khan — a Chartered Accountant with over 10 years of experience across Pakistan, the United States, the United Kingdom, and the UAE. What began as a passion for financial precision has grown into a trusted advisory practice serving individuals, SMEs, and corporations remotely from Pakistan.
+                JAK Associates was founded by Jamal Ahmad Khan — a Chartered
+                Accountant with over 10 years of experience across Pakistan, the
+                United States, the United Kingdom, and the UAE. What began as a
+                passion for financial precision has grown into a trusted
+                advisory practice serving individuals, SMEs, and corporations
+                remotely from Pakistan.
               </p>
               <p className="mb-30px text-dark-gray lh-26 w-90">
-                Our philosophy is simple: the power of being clear. We believe every client deserves straightforward, honest, and expert financial guidance — without jargon, without surprises, and without compromise.
+                Our philosophy is simple: the power of being clear. We believe
+                every client deserves straightforward, honest, and expert
+                financial guidance — without jargon, without surprises, and
+                without compromise.
               </p>
               <div className="row mb-35px">
                 <div className="col-sm-6 col-6 mb-20px">
                   <div className="d-flex align-items-center last-paragraph-no-margin">
                     <i className="bi bi-check-circle fs-20 text-base-color me-10px" />
-                    <span className="fw-600 text-dark-gray">Chartered Accountant (CA)</span>
+                    <span className="fw-600 text-dark-gray">
+                      Chartered Accountant (CA)
+                    </span>
                   </div>
                 </div>
                 <div className="col-sm-6 col-6 mb-20px">
                   <div className="d-flex align-items-center last-paragraph-no-margin">
                     <i className="bi bi-check-circle fs-20 text-base-color me-10px" />
-                    <span className="fw-600 text-dark-gray">B.Com</span>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-6 mb-20px">
-                  <div className="d-flex align-items-center last-paragraph-no-margin">
-                    <i className="bi bi-check-circle fs-20 text-base-color me-10px" />
-                    <span className="fw-600 text-dark-gray">Certified Intuit Bookkeeper</span>
+                    <span className="fw-600 text-dark-gray">
+                      Certified Intuit Bookkeeper
+                    </span>
                   </div>
                 </div>
               </div>
-              <a href="/contact" className="btn btn-medium btn-rounded btn-box-shadow" style={{ backgroundColor: "#ff7a00", color: "#ffffff" }}>
+              <a
+                href="/contact"
+                className="btn btn-medium btn-rounded btn-box-shadow"
+                style={{ backgroundColor: "#ff7a00", color: "#ffffff" }}
+              >
                 Get in Touch
               </a>
             </div>
@@ -139,9 +154,14 @@ export default function AboutPage() {
                 <div className="mb-30px">
                   <i className="bi bi-compass-fill fs-40 text-base-color" />
                 </div>
-                <h5 className="alt-font text-dark-gray fw-700 mb-20px">Our Mission</h5>
+                <h5 className="alt-font text-dark-gray fw-700 mb-20px">
+                  Our Mission
+                </h5>
                 <p className="text-dark-gray lh-26">
-                  To provide reliable, transparent, and expert accounting and financial advisory services that empower clients to make confident decisions — regardless of where they are in the world.
+                  To provide reliable, transparent, and expert accounting and
+                  financial advisory services that empower clients to make
+                  confident decisions — regardless of where they are in the
+                  world.
                 </p>
               </div>
             </div>
@@ -150,9 +170,13 @@ export default function AboutPage() {
                 <div className="mb-30px">
                   <i className="bi bi-eye-fill fs-40 text-base-color" />
                 </div>
-                <h5 className="alt-font text-dark-gray fw-700 mb-20px">Our Vision</h5>
+                <h5 className="alt-font text-dark-gray fw-700 mb-20px">
+                  Our Vision
+                </h5>
                 <p className="text-dark-gray lh-26">
-                  To be the most trusted remote accounting and financial firm for Pakistani, US, UK, and UAE clients — known for integrity, clarity, and measurable results.
+                  To be the most trusted remote accounting and financial firm
+                  for Pakistani, US, UK, and UAE clients — known for integrity,
+                  clarity, and measurable results.
                 </p>
               </div>
             </div>
@@ -185,7 +209,7 @@ export default function AboutPage() {
                   Qualified & Certified
                 </h5>
                 <p className="text-dark-gray lh-26">
-                  CA, B.Com, Certified Intuit Bookkeeper with proven expertise
+                  CA, Certified Intuit Bookkeeper with proven expertise
                 </p>
               </div>
             </div>
@@ -218,7 +242,8 @@ export default function AboutPage() {
                   Client-First Approach
                 </h5>
                 <p className="text-dark-gray lh-26">
-                  Dedicated attention and personalised solutions for every client
+                  Dedicated attention and personalised solutions for every
+                  client
                 </p>
               </div>
             </div>
@@ -228,7 +253,12 @@ export default function AboutPage() {
       {/* end why choose us section */}
 
       {/* start stats section */}
-      <section className="bg-dark-gray pt-60px pb-60px" style={{ background: "linear-gradient(90deg, #1a1a1a 0%, #2d2d2d 100%)" }}>
+      <section
+        className="bg-dark-gray pt-60px pb-60px"
+        style={{
+          background: "linear-gradient(90deg, #1a1a1a 0%, #2d2d2d 100%)",
+        }}
+      >
         <div className="container">
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-center">
             <div className="col mb-40px mb-lg-0">
@@ -236,7 +266,10 @@ export default function AboutPage() {
                 className="text-white"
                 data-anime='{ "el": "childs", "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
               >
-                <h3 className="alt-font text-white fw-700 mb-15px" style={{ fontSize: "48px" }}>
+                <h3
+                  className="alt-font text-white fw-700 mb-15px"
+                  style={{ fontSize: "48px" }}
+                >
                   10+
                 </h3>
                 <p className="fw-500 mb-0">Years of Experience</p>
@@ -247,7 +280,10 @@ export default function AboutPage() {
                 className="text-white"
                 data-anime='{ "el": "childs", "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
               >
-                <h3 className="alt-font text-white fw-700 mb-15px" style={{ fontSize: "48px" }}>
+                <h3
+                  className="alt-font text-white fw-700 mb-15px"
+                  style={{ fontSize: "48px" }}
+                >
                   50+
                 </h3>
                 <p className="fw-500 mb-0">Clients Served</p>
@@ -258,7 +294,10 @@ export default function AboutPage() {
                 className="text-white"
                 data-anime='{ "el": "childs", "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
               >
-                <h3 className="alt-font text-white fw-700 mb-15px" style={{ fontSize: "48px" }}>
+                <h3
+                  className="alt-font text-white fw-700 mb-15px"
+                  style={{ fontSize: "48px" }}
+                >
                   4
                 </h3>
                 <p className="fw-500 mb-0">Countries: PK | US | UK | UAE</p>
@@ -269,7 +308,10 @@ export default function AboutPage() {
                 className="text-white"
                 data-anime='{ "el": "childs", "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
               >
-                <h3 className="alt-font text-white fw-700 mb-15px" style={{ fontSize: "48px" }}>
+                <h3
+                  className="alt-font text-white fw-700 mb-15px"
+                  style={{ fontSize: "48px" }}
+                >
                   200+
                 </h3>
                 <p className="fw-500 mb-0">Tax Returns Filed</p>
@@ -302,7 +344,9 @@ export default function AboutPage() {
                       <button
                         className={`accordion-button ${openFAQ === index ? "" : "collapsed"}`}
                         type="button"
-                        onClick={() => setOpenFAQ(openFAQ === index ? -1 : index)}
+                        onClick={() =>
+                          setOpenFAQ(openFAQ === index ? -1 : index)
+                        }
                       >
                         {item.question}
                       </button>
@@ -311,9 +355,7 @@ export default function AboutPage() {
                       id={`collapse-${index}`}
                       className={`accordion-collapse collapse ${openFAQ === index ? "show" : ""}`}
                     >
-                      <div className="accordion-body">
-                        {item.answer}
-                      </div>
+                      <div className="accordion-body">{item.answer}</div>
                     </div>
                   </div>
                 ))}
@@ -325,9 +367,14 @@ export default function AboutPage() {
       {/* end faq section */}
 
       {/* start cta section */}
-      <section className=" position-relative bg-light-gray" style={{
-        // background:"gray"
-      }}>
+      <section
+        className=" position-relative bg-light-gray"
+        style={
+          {
+            // background:"gray"
+          }
+        }
+      >
         <div className="container">
           <div className="row justify-content-center align-items-center">
             <div className="col-lg-8 text-center">
@@ -335,9 +382,15 @@ export default function AboutPage() {
                 Ready to Work With Us?
               </h3>
               <p className="text-white mb-35px fw-500 lh-26">
-                Let's clear up your financial picture. Get in touch with JAK Associates today and experience transparent, expert guidance tailored to your needs.
+                Let's clear up your financial picture. Get in touch with JAK
+                Associates today and experience transparent, expert guidance
+                tailored to your needs.
               </p>
-              <a href="/contact" className="btn btn-medium btn-rounded btn-box-shadow" style={{ backgroundColor: "#ffffff", color: "#ff7a00" }}>
+              <a
+                href="/contact"
+                className="btn btn-medium btn-rounded btn-box-shadow"
+                style={{ backgroundColor: "#ffffff", color: "#ff7a00" }}
+              >
                 Get in Touch
               </a>
             </div>

@@ -32,7 +32,7 @@ export const footerBrand = {
     },
     {
       name: "youtube",
-      href: "https://youtube.com/@mr.jakca_1",
+      href: "https://youtu.be/WGzIMrZyZ7E?si=LIQ-benVHf3FyrTh",
       iconClassName: "fa-brands fa-youtube",
     },
     {
@@ -88,8 +88,8 @@ export const footerContact = {
   items: [
     {
       label: "Need support?",
-      href: "mailto:jamalkhanca@gmail.com",
-      value: "jamalkhanca@gmail.com",
+      href: "mailto:jamalkhanca001@gmail.com",
+      value: "jamalkhanca001@gmail.com",
       linkClassName: "text-white lh-16 d-block mb-15px",
     },
     {

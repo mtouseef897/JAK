@@ -146,7 +146,7 @@ export const blogItems = [
 export const carouselItems = [
   {
     title: "Certified & Qualified",
-    text: "CA, B.Com, and Certified Intuit Bookkeeper — your finances in expert hands",
+    text: "CA and Certified Intuit Bookkeeper — your finances in expert hands",
     image: "/images/demo-accounting-img-01.jpg",
     iconClassName: "line-icon-Management icon-extra-large text-white mb-20px",
     contentPaddingClassName: "p-12 xl-p-10",

@@ -4,7 +4,7 @@ export default function TeamPage() {
   const founder = {
     name: "Jamal Ahmad Khan",
     designation: "Founder & Principal Advisor",
-    credentials: "CA | B.Com | Certified Intuit Bookkeeper",
+    credentials: "CA | Certified Intuit Bookkeeper",
     experience: "10+ Years",
     expertise: "Pakistan, US, UK & UAE Taxation | Audit | Financial Advisory",
     photo: "/images/jak-profile.jpeg",
@@ -17,7 +17,7 @@ export default function TeamPage() {
       {
         icon: "bi-youtube",
         label: "YouTube",
-        url: "https://youtube.com/@mr.jakca_1",
+        url: "https://youtu.be/WGzIMrZyZ7E?si=LIQ-benVHf3FyrTh",
       },
       {
         icon: "bi-facebook",
@@ -32,7 +32,7 @@ export default function TeamPage() {
       {
         icon: "bi-envelope",
         label: "Email",
-        url: "mailto:jamalkhanca@gmail.com",
+        url: "mailto:jamalkhanca001@gmail.com",
       },
     ],
   };
@@ -360,7 +360,7 @@ export default function TeamPage() {
                 from you!
               </p>
               <a
-                href="mailto:jamalkhanca@gmail.com"
+                href="mailto:jamalkhanca001@gmail.com"
                 className="btn btn-medium btn-rounded btn-box-shadow"
                 style={{ backgroundColor: "#ffffff", color: "#ff7a00" }}
               >

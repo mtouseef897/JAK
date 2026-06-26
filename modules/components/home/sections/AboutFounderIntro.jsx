@@ -62,17 +62,6 @@ const AboutFounderIntro = () => {
               make confident, well-informed financial decisions —all delivered
               100% remotely with the precision and care you deserve.
             </p>
-            {/* <div className="mb-7 ">
-              <div className="d-inline-block align-middle bg-yellow fw-600 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-12 me-10px lh-30 sm-m-5px">
-                CA
-              </div>
-              <div className="d-inline-block align-middle bg-yellow fw-600 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-12 me-10px lh-30 sm-m-5px">
-                B.Com
-              </div>
-              <div className="d-inline-block align-middle bg-yellow fw-600 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-12 me-10px lh-30 sm-m-5px">
-                Certified Intuit Bookkeeper
-              </div>
-            </div> */}
             <a
               href="/about-us"
               className="btn btn-large btn-rounded with-rounded btn-base-color btn-round-edge btn-box-shadow"
