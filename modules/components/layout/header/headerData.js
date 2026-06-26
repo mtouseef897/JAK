@@ -12,6 +12,7 @@ export const headerTopBar = {
   location: {
     iconClassName: "feather icon-feather-mail",
     label: "jamalkhanca001@gmail.com",
+    href: "mailto:jamalkhanca001@gmail.com",
   },
 };
 
